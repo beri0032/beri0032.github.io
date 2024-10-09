@@ -1,0 +1,30 @@
+body{background-color: rgb(225, 198, 159);}
+header{background-color:rgb(45, 29, 5);
+color: rgb(216, 144, 29);
+padding: 1rem 2rem;
+/* 1 rem =16px */
+text-align: center;
+margin: 1rem;
+font-size:2rem;}
+
+h1,h2,h3{text-decoration:underline;}
+p{font-size:1.2rem;}
+div p{font-size:1rem;}
+.notes{
+    border: 3px black solid ;
+}
+.highlight{background-color: rgb(55, 36, 7);
+color: beige;}
+p{font-weight:200
+    
+    ;}
+/* to target an id we need to use # */
+#goals{
+    font-weight: 700;}
+li:nth-child(even){background-color: rgb(134, 105, 60);}
+a{display: block; color: rgb(107, 84, 50);}
+
+a[href="https://algonquincollege.com"] {color: rgb(19, 12, 1);}
+a:link{color: brown;}
+a:hover{color:darkorange;}
+a:visited{color:tomato;}
