@@ -1,0 +1,78 @@
+
+html{
+/* font-size:20px;     */
+}
+.container{
+ /* max-width:90% */
+max-width: 90vw;
+margin: 0 auto;
+}
+header
+{background-color:#333;
+color:#fff;
+padding:10rem 0;
+text-align: center;
+background-image: url("../images/bread.jpg");
+background-repeat:no-repeat;
+font-family:"Oswald", sans-serif;
+/* background-position: 20px 40px;} */
+background-position: center;
+background-size:cover;}
+nav ul li a{
+color: #fff;
+padding:1rem;
+font: size 1.2em;
+text-decoration:none;}
+nav ul li{
+display:inline;
+margin:0 0.5rem;   
+}
+nav ul{
+list-style:none;
+padding:0.7rem 0;
+}
+nav ul li a:hover{
+background-color: #fff;
+color:#333;    
+}
+h1{
+font-size:2rem;
+ /*1 rem=16px */
+}
+/* #breakfast{ */
+/* max: width 90vw;; } */
+body{
+background: color #f4f4f4;
+color: #333;
+line-height:1.5;
+}
+section{
+background-color:rgba(206, 208, 210, 0.678);
+padding:1rem;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+border-radius:5px;
+font-family:"Oswald", sans-serif;}
+h2{
+font-size:1.8rem;
+margin-bottom:10px;    
+}
+h3{
+font-size:1.5rem;
+margin-bottom:5px;
+}
+aside{
+background-color:#7ee8c5;
+padding:0.8rem;
+border-radius:5px;
+margin-top:1rem;
+font-family:"Oswald", sans-serif;
+}
+footer{
+text-align: center;
+background-color: #353633;
+color:#f4f4f4;
+padding: 0.8em 0;
+margin-top:1rem; 
+border-radius:5px;
+font-family:"Oswald", sans-serif;   
+}
