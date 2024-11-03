@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#aad4cf;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(213, 235, 235);
+    border: 1px solid #b2c8c1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    background-image: url("../images/lone-starfish-wide.jpg"); 
+    background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+}
+header h1{
+    margin-top:100px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+     padding: 10px 0;
+    font-size: 1.2em;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    text-align: left;
+}
+.content h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+.content img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: auto;
+}
+.facts, .contact-section {
+    padding: 20px;
+    margin-top: 20px;
+}
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.contact-section{
+    border: 1px solid black;
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-section label {
+    font-weight: bold;
+}
+.contact-section .radio-group {
+    margin: 8px 0;
+}
+.contact-section input[type="submit"] {
+    padding: 10px 20px;
+    
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+}

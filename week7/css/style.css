@@ -1,0 +1,72 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    width: 400px;
+    border: 6px solid #111;
+    margin:0 auto;
+  }
+  .container::before{
+    content: "I am using it ";
+  }
+  
+  /*
+  Add some space between the border;
+  */
+  figure{
+    margin: 10px;
+  }
+  
+  /*
+  Give the caption a distinct style.
+  */
+  figcaption{
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    background:#111;
+    color: #fff;
+  }
+  figure img{
+    width:100%;
+    height: auto;
+    display: block;
+  }
+  .container3{
+    width: 500px;
+    margin: 0 auto;
+  }
+  img{
+    width: 200px;
+    float: left;
+    padding-right:10px;
+  }
+  .container4{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 4px solid red;
+  }
+  
+  .box{
+    width: 25%;
+    height: 100px;
+    float: left;
+  }
+  
+  .purple{
+    background: purple;
+  }
+  .blue{
+    background: blue;
+  }
+  .green{
+    background: green;
+  }
+  .orange{
+    background: orange;
+  }
