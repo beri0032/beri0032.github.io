@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    min-height:100px;
+    background-color: rgb(255, 255, 0);
+}
+main{
+    min-height:400px;
+    background-color:rgb(213, 40, 147);
+}
+/* for 650px device size or over */
+@media screen and (min-width:650px){
+    main{
+        background-color:palegoldenrod;
+    }
+    footer,header{
+        background-color:palevioletred;
+    }
+}
+@media screen and (min-width:900px){
+    main{
+        background-color: aqua;
+    }
+}
+.container{
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Creative-Tail-Animal-mouse.svg/128px-Creative-Tail-Animal-mouse.svg.png);
+  }
+  
+  /*
+  A larger herd of elephants is served to anything above 650px
+  */
+  @media screen and (min-width:650px){
+    .container{
+      background: url(https://upload.wikimedia.org/wikipedia/commons/3/30/Borneoelephants.jpg);
+      width:650px;
+      height: 650px;
+      border-radius: 50%;
+    }
+  }
+/* 
+default
+device size is 650px and over(min-width 649)
+device size is 900px and over(min width)
+device size is 1200px and over (max-width)*/
